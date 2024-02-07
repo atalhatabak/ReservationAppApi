@@ -2,7 +2,7 @@
 Laravel ile yapılmış kayıt, giriş, profil rezervasyon oluşturma, silme, geçmiş rezervasyonları görüntüleme gibi işlevleri olan Api<br>
 bu apiyi kullanan mobil uygulama için <a href="https://github.com/atalhatabak/ReservationAppMobile">ReservationAppMobile</a>
 
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
+[<img src="https://i.ytimg.com/vi/keHCc-PwydE/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=keHCc-PwydE "Now in Android: 55")
 
 <h1>Kurulum</h1><br>
 git clone https://github.com/atalhatabak/ReservationAppApi.git<br>

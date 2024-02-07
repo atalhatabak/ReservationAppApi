@@ -8,9 +8,9 @@ php artisan serve<br>
 <code>.env dosyasını istediğiniz veritabanına uygun şekilde yapılandırınız, sqlite için php.ini üzerinden sqlite eklentisini aktifleştirmeniz gerekiyor. </code><br>
 
 <h1>Kullanımı</h1>
-path: /register
-method: post
-parametreler:
+path: /register <br>
+method: post <br>
+parametreler: <br>
 <pre>
                 'name' => 'required',
                 'TC' => 'required',
@@ -27,6 +27,8 @@ return:
                 'name' => $request->name,
                 'role' => $request->role,
 </pre>
+<hr>
+
 path: /login
 method: post
 parametreler;
@@ -35,7 +37,92 @@ parametreler;
                 'password' => 'required'    
 </pre>
 Authorization: Bearer <token>
-<code>Bundan sonraki her istek için token gönderimi zorunludur</code>
+<code>Bundan sonraki her istek için token gönderimi zorunludur. JS ile örnek kod</code>
+<code>
+                axios.get(`${appData.apiUrl}/api/getBranchs`, {
+                    headers: {
+                      <b>'Authorization': `Bearer ${appData.token}`</b>,
+                    }
+                  })
+</code>
+<hr>
+
+path: /getBranchs
+method: get
+Authorization: Bearer <token>
+<hr>
+
+path: /getAvaibleDates
+method: get
+parametreler;
+<pre>
+                branch_id
+</pre>
+Authorization: Bearer <token>
+<hr>
+
+path: /getCars
+method: get
+Authorization: Bearer <token>
+<hr>
+
+path: /getReservations
+method: get
+Authorization: Bearer <token>
+<hr>
+
+path: /addCar
+method: post
+Authorization: Bearer <token>
+parametreler: <br>
+<pre>
+                'brand' => 'required',
+                'model' => 'required',
+                'plaka' => 'required',
+                'owner' => 'required',
+</pre>
+<hr>
+
+path: /addReservation
+method: post
+Authorization: Bearer <token>
+parametreler: <br>
+<pre>
+                'date' => 'required',
+                'session' => 'required',
+                'branch_id' => 'required',
+                'car_id' => 'required',
+</pre>
+<hr>
+
+path: /deleteReservation
+method: delete
+Authorization: Bearer <token>
+parametreler: <br>
+<pre>
+                'id' => 'required',
+</pre>
+<hr>
+
+path: /getPersonalInfo
+method: get
+Authorization: Bearer <token>
+parametreler: <br>
+<hr>
+
+path: /updatePersonalInfo
+method: put
+Authorization: Bearer <token>
+parametreler: <br>
+<pre>
+                'name' => 'required',
+                'TC' => 'required',
+                'phone' => 'required',
+                'email' => 'required',
+</pre>
+<hr>
+
+
 
 
 

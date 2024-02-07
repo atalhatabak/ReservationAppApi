@@ -1,7 +1,7 @@
 <h1>Nedir</h1><br>
 Laravel ile yapılmış kayıt, giriş, profil rezervasyon oluşturma, silme, geçmiş rezervasyonları görüntüleme gibi işlevleri olan Api<br>
 bu apiyi kullanan mobil uygulama için <a href="https://github.com/atalhatabak/ReservationAppMobile">ReservationAppMobile</a>
-[<img src="[https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg](https://i.ytimg.com/an_webp/keHCc-PwydE/mqdefault_6s.webp?du=3000&sqp=CK7Cj64G&rs=AOn4CLCOc5XJTTENRPqwSa0cTccUvCKojg)" width="50%">](https://www.youtube.com/watch?v=keHCc-PwydE)
+
 [![Kullanım Videosu]
 (https://i.ytimg.com/vi/keHCc-PwydE/maxresdefault.jpg)] // Thumbnail
 (https://www.youtube.com/watch?v=keHCc-PwydE "Now in Android: 55")    // Video Link

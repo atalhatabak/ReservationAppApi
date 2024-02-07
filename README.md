@@ -29,14 +29,14 @@ return:
 </pre>
 <hr>
 
-path: /login
-method: post
-parametreler;
+path: /login<br>
+method: post<br>
+parametreler;<br>
 <pre>
                 'email' => 'required|email',
                 'password' => 'required'    
 </pre>
-Authorization: Bearer <token>
+Authorization: Bearer token<br>
 <code>Bundan sonraki her istek için token gönderimi zorunludur. JS ile örnek kod</code>
 <code>
                 axios.get(`${appData.apiUrl}/api/getBranchs`, {
@@ -47,34 +47,34 @@ Authorization: Bearer <token>
 </code>
 <hr>
 
-path: /getBranchs
-method: get
-Authorization: Bearer <token>
+path: /getBranchs<br>
+method: get<br>
+Authorization: Bearer token<br>
 <hr>
 
-path: /getAvaibleDates
-method: get
-parametreler;
+path: /getAvaibleDates<br>
+method: get<br>
+parametreler;<br>
 <pre>
                 branch_id
 </pre>
-Authorization: Bearer <token>
+Authorization: Bearer token<br>
 <hr>
 
-path: /getCars
-method: get
-Authorization: Bearer <token>
+path: /getCars<br>
+method: get<br>
+Authorization: Bearer token<br>
 <hr>
 
-path: /getReservations
-method: get
-Authorization: Bearer <token>
+path: /getReservations<br>
+method: get<br>
+Authorization: Bearer token<br>
 <hr>
 
-path: /addCar
-method: post
-Authorization: Bearer <token>
-parametreler: <br>
+path: /addCar<br>
+method: post<br>
+Authorization: Bearer token<br>
+parametreler: <br><br>
 <pre>
                 'brand' => 'required',
                 'model' => 'required',
@@ -83,10 +83,10 @@ parametreler: <br>
 </pre>
 <hr>
 
-path: /addReservation
-method: post
-Authorization: Bearer <token>
-parametreler: <br>
+path: /addReservation<br>
+method: post<br>
+Authorization: Bearer token<br>
+parametreler: <br><br>
 <pre>
                 'date' => 'required',
                 'session' => 'required',
@@ -95,25 +95,25 @@ parametreler: <br>
 </pre>
 <hr>
 
-path: /deleteReservation
-method: delete
-Authorization: Bearer <token>
-parametreler: <br>
+path: /deleteReservation<br>
+method: delete<br>
+Authorization: Bearer token<br>
+parametreler: <br><br>
 <pre>
                 'id' => 'required',
 </pre>
 <hr>
 
-path: /getPersonalInfo
-method: get
-Authorization: Bearer <token>
-parametreler: <br>
+path: /getPersonalInfo<br>
+method: get<br>
+Authorization: Bearer token<br>
+parametreler: <br><br>
 <hr>
 
-path: /updatePersonalInfo
-method: put
-Authorization: Bearer <token>
-parametreler: <br>
+path: /updatePersonalInfo<br>
+method: put<br>
+Authorization: Bearer token<br>
+parametreler: <br><br>
 <pre>
                 'name' => 'required',
                 'TC' => 'required',

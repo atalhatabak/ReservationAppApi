@@ -1,9 +1,8 @@
 <h1>Kurulum</h1>
-<pre>
-git clone https://github.com/atalhatabak/ReservationAppApi.git
-cd ReservationAppApi
-composer install
-php artisan migrate
-php artisan db:seed
-<code>.env dosyasını istediğiniz veritabanına uygun şekilde yapılandırınız, sqlite için php.ini üzerinden sqlite eklentisini aktifleştirmeniz gerekiyor. </code>
-</pre>
+git clone https://github.com/atalhatabak/ReservationAppApi.git<br>
+cd ReservationAppApi<br>
+composer install<br>
+php artisan migrate<br>
+php artisan db:seed<br>
+<code>.env dosyasını istediğiniz veritabanına uygun şekilde yapılandırınız, sqlite için php.ini üzerinden sqlite eklentisini aktifleştirmeniz gerekiyor. </code><br>
+

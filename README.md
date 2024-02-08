@@ -115,7 +115,6 @@ parametreler: <br><br>
 path: /getPersonalInfo<br>
 method: get<br>
 Authorization: Bearer token<br>
-parametreler: <br><br>
 <hr>
 
 path: /updatePersonalInfo<br>
